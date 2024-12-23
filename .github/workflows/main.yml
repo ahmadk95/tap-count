@@ -13,7 +13,8 @@ jobs:
       fail-fast: false
       matrix:
         targetPlatform:
-          - WebGL # WebGL.
+          - Android # Android.
+          #- WebGl # WebGL
     steps:
       - uses: actions/checkout@v4
         with:
